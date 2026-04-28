@@ -1,0 +1,120 @@
+Uppara Karthik Kumar
+Backend Engineer
+📍Bengaluru , India     📞+91-7416179170   📧  karthikkumar732@gmail.com     🔗 linkedin.com/in/karthik-kumar-uppara
+
+PROFESSIONAL SUMMARY
+Karthik has 8+ years of industry experience in solution design, impact analysis, feasibility assessment, and enterprise application development, with Agenti AI, INtelligent Automation and data-driven platforms. He has hands-on experience designing and developing AI-enabled orchestration frameworks, and LLM observability capabilities for tracking usage, evaluation, and drift across agents and conversations. He also brings strong expertise in microservices architecture using Spring Boot, CI?CD pipeline development, and enterprise integration solutions using Mule ESB and Workato
+
+TECHNICAL SKILLS
+
+Backend Engineering
+Java (8+), Python, Spring Boot, Spring Cloud, Microservices, RESTful API Design, JPA/Hibernate, Kafka, JMS, Asynchronous Processing, API Gateway patterns
+Agentic AI
+Ai Orchestration, Snowflake data agents, LLM Observability, RAGAS, Conversation AI, LangChain, MCP, Snowflake Cortex
+Automation & Integration
+Workato (Automation Pro 1–3), MuleSoft (MCD-Level 1), Camunda BPM, Apache Camel, RPA, Playwright, Salesforce, NetSuite, Workday, Jira integrations, ETL & workflow automation
+Cloud & DevOps
+AWS (Lambda, S3, SNS/SQS, CloudWatch), GCP (GKE, Pub/Sub, Cloud SQL), Docker, Kubernetes, Helm Charts, Jenkins, Bitbucket Pipelines, CI/CD, Splunk Observability
+Databases & Storage
+MySQL, PostgreSQL, MongoDB, Elasticsearch – schema design, query optimisation, data migration
+Frontend (Supporting Skills)
+React, JavaScript, Angular, HTML/CSS – supporting UI components and dashboards
+
+
+CERTIFICATIONS
+MuleSoft Certified Developer – Level 1 (Mule 4)
+AWS Certified Cloud Practitioner
+AWS Certified Solutions Architect – Associate
+Automation Pro 1, 2 & 3 – Workato
+Automation Centre of Excellence
+
+PROFESSIONAL EXPERIENCE
+Enquero – A Genpact Company  |  California, USA  Dec 2025 – Present
+Client: Cisco
+Description: Commerce Automation AI Marketplace
+Tech Stack: Python, React, Playwright, Temporal, Langchain, LLM, Snowflake
+Led the enablement of a federated IAP (Intelligent Automation Platform) delivery model, empowering cross-functional teams to build their own automations while ensuring central governance.
+Built an intelligent orchestration framework for scheduled case ingestion, queue monitoring, and rules-based case routing.
+Implemented Temporal workflows for multi-step activity orchestration and reliable downstream processing. Automated result persistence and queue dispatch using configurable business rules.
+Developed an observability module to track LLM usage, RAGAS metrics, and drift at agent and conversation level.
+Enabled cost visibility across agents to identify high-consumption areas and optimize platform usage.
+Improved governance through detailed agent-wise monitoring and usage analytics
+Built a role and team based snowflake agent for secure natural language access to enterprise datasets.
+Implemented permission-aware SQL generation based on user table access and metadata rules.
+Integrated the agent with CIRCUIT to provide conversational access to Snowflake-backed information.
+Enquero – A Genpact Company  |  California, USA  Apr 2024 – Nov 2025
+Client: Atlassian
+Description: Intelligent Automation Platform Build & Support
+Tech Stack: Jira, Spring Boot, SQL, React, Redux, jQuery, Workato, MuleSoft, UiPath, Camunda
+Led the enablement of a federated IAP (Intelligent Automation Platform) delivery model, empowering cross-functional teams to build their own automations while ensuring central governance.
+Established platform-wide best practices, reusable frameworks, and design standards across Workato, Camunda, and UiPath.
+Designed and developed custom connectors and accelerators to extend platform capabilities and Atlassian-specific internal services.
+Administered and configured IAP tools including creation of roles, workspaces, environment setup, and lifecycle automation workflows.
+Migrated UiPath to an RPA framework (Playwright), significantly reducing license costs, and set up the Orchestrator for the same.
+Performed peer code reviews and led design discussions for platform enhancements.
+Developed an Agentic AI–powered MCP Server using Rovo and Forge App.
+
+Enquero – A Genpact Company  |  Bangalore, India  Aug 2022 – Mar 2024
+Client: Atlassian
+Description: Customer Support Application Development & Integration with External Systems
+Tech Stack: Jira, Spring Boot, React, JavaScript, Workato, AWS
+Designed and developed UI components and web pages for the Support Form App (SAC) using React and JavaScript, with test coverage using Cypress.
+Created and updated Workato automation recipes integrating with Salesforce, NetSuite, and other external APIs.
+Developed and maintained REST APIs for the Customer Support Service, processing data via Camunda workflows and creating support tickets in Jira.
+Added custom fields in Jira management and built automation flows using A4J and Workato recipes to populate those fields.
+Performed peer code reviews and contributed to design discussions for enhancements.
+
+Enquero Global LLP  |  Bangalore, India  Jun 2021 – Aug 2022
+Client: Symphony Communications
+Description: GCP Migration & Directory Service Modernisation
+Tech Stack: Spring Boot, MySQL, Java 1.8, GCP, AWS, Elasticsearch, Kubernetes
+Led development of a Directory Service providing fast, relevance-ranked user search ordered by interaction frequency.
+Developed CI/CD pipelines to build and publish Docker images to the container registry.
+Migrated application components, MySQL datasets, and Elasticsearch indices from AWS to GCP with zero downtime.
+Built Helm charts and deployed the service on GKE, improving reliability and scalability.
+Led a team of 4 engineers, providing technical direction, code reviews, and delivery oversight.
+
+Enquero Global LLP  |  Bangalore, India  Sep 2020 – Jun 2021
+Client: New Relic
+Description: ETL solution for consolidating data from SaaS applications into the Anaplan Data Hub
+Tech Stack: MuleSoft 4, Java, Anaplan
+Sole Integration Engineer responsible for designing and developing end-to-end data integrations across Salesforce, NetSuite, and Anaplan.
+Built MuleSoft flows to extract, transform, and load operational data into the Anaplan Data Hub with consistency, validation, and fault-tolerance.
+Designed System APIs for Anaplan, enabling reusable, scalable API-driven integrations across multiple business domains.
+Implemented an ad-hoc and on-demand integration trigger mechanism, allowing business users to run data syncs directly from Anaplan — eliminating full-day scheduled batch delays.
+Improved data freshness and reduced processing delays by enabling real-time and near-real-time sync, significantly accelerating planning and reporting.
+
+Enquero Global LLP  |  Bangalore, India  Apr 2020 – Sep 2020
+Description: Worked on Internal Product Online Exam Application for Campus Hiring Events
+Tech Stack: Spring Boot, MySQL, Java 1.8, React
+Spearheaded the architectural design and structural planning of primary application modules.
+Built scalable microservices using Spring Boot and JPA.
+Integrated ActiveMQ for asynchronous email messaging.
+Managed Docker-based deployment and service maintenance.
+Led a team of 3 developers to deliver high-quality backend APIs.
+
+Enquero Global LLP  |  Bangalore, India  Jan 2020 – Mar 2020
+Client: Cisco
+Description: Sales Incentive Solution for Partners Management
+Tech Stack: Spring Boot, Angular 7, Java 1.8, Oracle
+Developed microservices and JUnit test cases for the application.
+Developed DAOs for retrieving data from the database, invoking PL/SQL procedures and SQL queries for performance improvement.
+
+Enquero Global LLP  |  Bangalore, Karnataka, India  Jun 2018 – Dec 2019
+Description: Worked on Internal Product PULSE - Employee Allocation Management Solution for Projects
+Tech Stack: Spring Boot, Angular 7, MySQL, Java 1.8, Swagger
+Developed RESTful services using Spring Boot with comprehensive JUnit test cases for code quality and reliability.
+Contributed to database schema design, ensuring scalable and efficient data models.
+Implemented Apache ActiveMQ for asynchronous email notifications.
+Built CI/CD pipelines in Bitbucket, enabling automated deployment across multiple environments.
+Developed the security layer including SSO login integration, authentication, and authorisation.
+Designed and implemented an integration solution to sync data from NetSuite to Pulse using the Factory Pattern for clean, extensible architecture.
+Provided ongoing support for performance optimisation, debugging, and maintenance.
+
+EDUCATION
+M.S. in Software EngineeringMay 2013 – May 2018
+VIT University, Vellore
+CGPA: 8.3 / 10
+PUC – Mathematics, Physics & Chemistry (MPC)Apr 2011 – Apr 2013
+NRI Junior College, Guntur
+Score: 93%

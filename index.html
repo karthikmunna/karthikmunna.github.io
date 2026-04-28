@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karthik Kumar — Backend Engineer &amp; AI Architect</title>
+  <meta name="description" content="Portfolio of Uppara Karthik Kumar — Backend Engineer with 8+ years building scalable systems, AI orchestration, and enterprise automation.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+<div class="app-bg"></div>
+<button class="theme-toggle-float" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+
+<div class="mobile-bar">
+  <div class="mobile-bar-name">karthik<span>.</span>dev</div>
+  <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</div>
+
+<div class="mobile-overlay" id="mobile-overlay">
+  <button class="mobile-overlay-close" id="mobile-close" aria-label="Close">&times;</button>
+  <button class="mobile-nav-item active" data-tab="about">About</button>
+  <button class="mobile-nav-item" data-tab="skills">Skills</button>
+  <button class="mobile-nav-item" data-tab="experience">Experience</button>
+  <button class="mobile-nav-item" data-tab="projects">Projects</button>
+  <button class="mobile-nav-item" data-tab="certs">Certifications</button>
+  <button class="mobile-nav-item" data-tab="contact">Contact</button>
+</div>
+
+<div class="app-shell">
+<aside class="sidebar">
+  <div class="profile">
+    <img src="image.jpg" alt="Karthik Kumar" class="profile-img">
+    <div class="profile-name">Karthik Kumar</div>
+    <div class="profile-title">Backend Engineer &amp; AI Architect</div>
+    <div class="profile-links">
+      <a href="https://github.com/karthikmunna" target="_blank" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 016.02 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.82.58C20.56 21.8 24 17.3 24 12 24 5.37 18.63 0 12 0z"/></svg></a>
+      <a href="https://linkedin.com/in/karthik-kumar-uppara" target="_blank" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 110-4.13 2.07 2.07 0 010 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+      <a href="mailto:karthikkumar732@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+    </div>
+  </div>
+  <ul class="nav-menu">
+    <li class="nav-item active" data-tab="about"><i data-lucide="user" class="nav-icon"></i> About</li>
+    <li class="nav-item" data-tab="skills"><i data-lucide="zap" class="nav-icon"></i> Skills</li>
+    <li class="nav-item" data-tab="experience"><i data-lucide="briefcase" class="nav-icon"></i> Experience</li>
+    <li class="nav-item" data-tab="projects"><i data-lucide="rocket" class="nav-icon"></i> Projects</li>
+    <li class="nav-item" data-tab="certs"><i data-lucide="award" class="nav-icon"></i> Certifications</li>
+    <li class="nav-item" data-tab="contact"><i data-lucide="send" class="nav-icon"></i> Contact</li>
+  </ul>
+  <div class="sidebar-footer">
+    <a href="resume.pdf" target="_blank" class="btn-resume">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 18 15 15"/></svg>
+      Download Resume
+    </a>
+  </div>
+</aside>
+
+<main class="content">
+
+<!-- ABOUT -->
+<div class="tab-panel active" id="about">
+  <div class="hero-card">
+    <div class="hero-greeting"><span class="dot"></span> Open to opportunities</div>
+    <h1 class="hero-headline">Backend Engineer.<br><span class="gradient-text">AI Architect.</span><br>System Builder.</h1>
+    <p class="hero-bio">I'm <strong>Karthik Kumar Uppara</strong> — a Backend Engineer based in Bengaluru with 8+ years crafting scalable microservices, AI orchestration frameworks, and enterprise automation platforms for global clients like <strong>Cisco</strong>, <strong>Atlassian</strong>, and <strong>New Relic</strong>.</p>
+    <p class="hero-bio" style="margin-top:-8px">Currently deep into <strong>Agentic AI</strong> — building Snowflake data agents, LLM-powered workflows with LangChain, and observability for tracking AI usage, evaluation, and drift.</p>
+  </div>
+  <div class="stats-row">
+    <div class="stat"><div class="stat-num">8+</div><div class="stat-lbl">Years Experience</div></div>
+    <div class="stat"><div class="stat-num">5+</div><div class="stat-lbl">Enterprise Clients</div></div>
+    <div class="stat"><div class="stat-num">5</div><div class="stat-lbl">Certifications</div></div>
+  </div>
+  <div class="content-footer"><p>Designed &amp; built by Karthik Kumar · © 2026</p></div>
+</div>
+
+<!-- SKILLS -->
+<div class="tab-panel" id="skills">
+  <span class="section-label">Skills &amp; Technologies</span>
+  <h2 class="section-title">My <span class="gradient-text">tech stack.</span></h2>
+  <p class="section-desc">Technologies I work with daily to build scalable, intelligent systems.</p>
+  <div class="skills-grid">
+    <div class="card skill-card"><h3><i data-lucide="server" class="skill-icon"></i> Backend &amp; APIs</h3><div class="pills"><span class="pill">Java</span><span class="pill">Python</span><span class="pill">Spring Boot</span><span class="pill">FastAPI</span><span class="pill">Microservices</span><span class="pill">REST</span><span class="pill">Kafka</span><span class="pill">JMS</span><span class="pill">JPA/Hibernate</span></div></div>
+    <div class="card skill-card"><h3><i data-lucide="brain" class="skill-icon"></i> AI &amp; Orchestration</h3><div class="pills"><span class="pill">LLM Orchestration</span><span class="pill">RAG</span><span class="pill">RAGAS</span><span class="pill">LangChain</span><span class="pill">MCP</span><span class="pill">Snowflake Cortex</span><span class="pill">Conversational AI</span></div></div>
+    <div class="card skill-card"><h3><i data-lucide="refresh-cw" class="skill-icon"></i> Automation &amp; RPA</h3><div class="pills"><span class="pill">Playwright</span><span class="pill">Workato</span><span class="pill">MuleSoft</span><span class="pill">Camunda BPM</span><span class="pill">UiPath</span><span class="pill">Temporal</span><span class="pill">Celery</span></div></div>
+    <div class="card skill-card"><h3><i data-lucide="cloud" class="skill-icon"></i> Cloud &amp; DevOps</h3><div class="pills"><span class="pill">AWS</span><span class="pill">GCP</span><span class="pill">Docker</span><span class="pill">Kubernetes</span><span class="pill">Helm</span><span class="pill">Jenkins</span><span class="pill">CI/CD</span><span class="pill">Splunk</span></div></div>
+    <div class="card skill-card"><h3><i data-lucide="database" class="skill-icon"></i> Data &amp; Storage</h3><div class="pills"><span class="pill">Snowflake</span><span class="pill">PostgreSQL</span><span class="pill">MySQL</span><span class="pill">MongoDB</span><span class="pill">Elasticsearch</span></div></div>
+    <div class="card skill-card"><h3><i data-lucide="monitor" class="skill-icon"></i> Frontend</h3><div class="pills"><span class="pill">React</span><span class="pill">Angular</span><span class="pill">JavaScript</span><span class="pill">HTML/CSS</span><span class="pill">Redux</span><span class="pill">Cypress</span></div></div>
+  </div>
+</div>
+
+<!-- EXPERIENCE -->
+<div class="tab-panel" id="experience">
+  <span class="section-label">Experience</span>
+  <h2 class="section-title">Where I've <span class="gradient-text">made impact.</span></h2>
+  <p class="section-desc">8+ years building systems for enterprise clients across automation, AI, and cloud.</p>
+  <div class="timeline">
+    <div class="tl-item"><div class="tl-dot"></div><div class="card tl-card"><div class="tl-header"><span class="tl-role">Senior Engineer — Commerce Automation AI</span><span class="tl-date">Dec 2025 – Present</span></div><div class="tl-company">Enquero – A Genpact Company</div><div class="tl-client">Client: Cisco</div><ul class="tl-list"><li>Built intelligent orchestration framework for case ingestion and rules-based routing</li><li>Implemented Temporal workflows for multi-step activity orchestration</li><li>Developed LLM observability module tracking RAGAS metrics and drift</li><li>Built role-based Snowflake agent for secure NL access to enterprise datasets</li></ul><div class="pills tl-tech"><span class="pill">Python</span><span class="pill">Temporal</span><span class="pill">LangChain</span><span class="pill">Snowflake</span><span class="pill">React</span></div></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="card tl-card"><div class="tl-header"><span class="tl-role">Platform Engineer — Intelligent Automation</span><span class="tl-date">Apr 2024 – Nov 2025</span></div><div class="tl-company">Enquero – A Genpact Company</div><div class="tl-client">Client: Atlassian</div><ul class="tl-list"><li>Led federated IAP delivery model for cross-functional automation teams</li><li>Migrated UiPath to Playwright RPA framework, reducing license costs</li><li>Developed Agentic AI–powered MCP Server using Rovo and Forge App</li></ul><div class="pills tl-tech"><span class="pill">Spring Boot</span><span class="pill">Workato</span><span class="pill">Playwright</span><span class="pill">Camunda</span><span class="pill">Forge</span></div></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="card tl-card"><div class="tl-header"><span class="tl-role">Full-Stack Engineer — Customer Support</span><span class="tl-date">Aug 2022 – Mar 2024</span></div><div class="tl-company">Enquero – A Genpact Company</div><div class="tl-client">Client: Atlassian</div><ul class="tl-list"><li>Built UI components for Support Form App (SAC) with React and Cypress</li><li>Created Workato recipes integrating Salesforce, NetSuite, and external APIs</li><li>Developed REST APIs with Camunda workflow processing</li></ul><div class="pills tl-tech"><span class="pill">React</span><span class="pill">Spring Boot</span><span class="pill">Workato</span><span class="pill">AWS</span></div></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="card tl-card"><div class="tl-header"><span class="tl-role">Backend Engineer — Directory Service</span><span class="tl-date">Jun 2021 – Aug 2022</span></div><div class="tl-company">Enquero Global LLP</div><div class="tl-client">Client: Symphony Communications</div><ul class="tl-list"><li>Led development of Directory Service with relevance-ranked user search</li><li>Migrated AWS to GCP with zero downtime — apps, MySQL, Elasticsearch</li><li>Led a team of 4 engineers with delivery oversight</li></ul><div class="pills tl-tech"><span class="pill">Spring Boot</span><span class="pill">GCP</span><span class="pill">Elasticsearch</span><span class="pill">Kubernetes</span></div></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="card tl-card"><div class="tl-header"><span class="tl-role">Integration Engineer</span><span class="tl-date">Sep 2020 – Jun 2021</span></div><div class="tl-company">Enquero Global LLP</div><div class="tl-client">Client: New Relic</div><ul class="tl-list"><li>Sole engineer for end-to-end data integrations across Salesforce, NetSuite, Anaplan</li><li>Built MuleSoft ETL flows with real-time sync capabilities</li></ul><div class="pills tl-tech"><span class="pill">MuleSoft</span><span class="pill">Java</span><span class="pill">Anaplan</span></div></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="card tl-card"><div class="tl-header"><span class="tl-role">Software Engineer</span><span class="tl-date">Jun 2018 – Sep 2020</span></div><div class="tl-company">Enquero Global LLP</div><div class="tl-client">Internal Products &amp; Cisco</div><ul class="tl-list"><li>Architected microservices for campus hiring and employee allocation platforms</li><li>Built CI/CD pipelines, SSO integration, and NetSuite data sync solutions</li></ul><div class="pills tl-tech"><span class="pill">Spring Boot</span><span class="pill">Angular</span><span class="pill">MySQL</span><span class="pill">Docker</span></div></div></div>
+  </div>
+</div>
+
+<!-- PROJECTS -->
+<div class="tab-panel" id="projects">
+  <span class="section-label">Featured Projects</span>
+  <h2 class="section-title">Things I've <span class="gradient-text">built.</span></h2>
+  <p class="section-desc">Key projects showcasing my work across AI, automation, and cloud infrastructure.</p>
+  <div class="projects-grid">
+    <div class="card proj-card"><div class="proj-icon"><i data-lucide="brain"></i></div><h3>Commerce Automation AI Marketplace</h3><p>Intelligent orchestration framework with Temporal workflows, LLM observability with RAGAS metrics, and a permission-aware Snowflake data agent for conversational enterprise data access.</p><div class="pills proj-tags"><span class="pill">Python</span><span class="pill">Temporal</span><span class="pill">LangChain</span><span class="pill">Snowflake</span><span class="pill">RAGAS</span></div></div>
+    <div class="card proj-card"><div class="proj-icon"><i data-lucide="bot"></i></div><h3>Agentic AI MCP Server</h3><p>Built an Agentic AI–powered MCP Server using Atlassian Rovo and Forge App, enabling intelligent automation capabilities within the Atlassian ecosystem.</p><div class="pills proj-tags"><span class="pill">Forge</span><span class="pill">Rovo</span><span class="pill">MCP</span><span class="pill">Agentic AI</span></div></div>
+    <div class="card proj-card"><div class="proj-icon"><i data-lucide="settings"></i></div><h3>Intelligent Automation Platform</h3><p>Federated automation platform enabling cross-functional teams to build their own automations. Migrated UiPath to Playwright-based RPA, reducing license costs significantly.</p><div class="pills proj-tags"><span class="pill">Playwright</span><span class="pill">Workato</span><span class="pill">Camunda</span><span class="pill">Spring Boot</span></div></div>
+    <div class="card proj-card"><div class="proj-icon"><i data-lucide="cloud-cog"></i></div><h3>GCP Migration — Zero Downtime</h3><p>Migrated application components, MySQL datasets, and Elasticsearch indices from AWS to GCP with zero downtime. Built Helm charts for GKE deployment.</p><div class="pills proj-tags"><span class="pill">GCP</span><span class="pill">Kubernetes</span><span class="pill">Elasticsearch</span><span class="pill">Helm</span></div></div>
+  </div>
+</div>
+
+<!-- CERTS -->
+<div class="tab-panel" id="certs">
+  <span class="section-label">Certifications</span>
+  <h2 class="section-title">Validated <span class="gradient-text">expertise.</span></h2>
+  <p class="section-desc">Industry-recognized certifications across cloud, integration, and automation.</p>
+  <div class="certs-grid">
+    <div class="card cert-card"><div class="cert-icon"><i data-lucide="award"></i></div><div class="cert-info"><h4>AWS Solutions Architect – Associate</h4><p>Amazon Web Services</p></div></div>
+    <div class="card cert-card"><div class="cert-icon"><i data-lucide="cloud"></i></div><div class="cert-info"><h4>AWS Cloud Practitioner</h4><p>Amazon Web Services</p></div></div>
+    <div class="card cert-card"><div class="cert-icon"><i data-lucide="link"></i></div><div class="cert-info"><h4>MuleSoft Certified Developer – L1</h4><p>MuleSoft (Mule 4)</p></div></div>
+    <div class="card cert-card"><div class="cert-icon"><i data-lucide="zap"></i></div><div class="cert-info"><h4>Automation Pro 1, 2 &amp; 3</h4><p>Workato</p></div></div>
+    <div class="card cert-card"><div class="cert-icon"><i data-lucide="building"></i></div><div class="cert-info"><h4>Automation Centre of Excellence</h4><p>Enterprise Automation</p></div></div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="tab-panel" id="contact">
+  <span class="section-label">Get In Touch</span>
+  <h2 class="section-title">Let's <span class="gradient-text">connect.</span></h2>
+  <div class="contact-box">
+    <p>I'm always open to discussing new opportunities, interesting projects, or collaboration ideas. Whether it's backend architecture, AI orchestration, or enterprise automation — let's talk.</p>
+    <div class="contact-btns">
+      <a href="mailto:karthikkumar732@gmail.com" class="btn-fill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> Email Me</a>
+      <a href="https://linkedin.com/in/karthik-kumar-uppara" target="_blank" class="btn-outline"><svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 110-4.13 2.07 2.07 0 010 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg> LinkedIn</a>
+      <a href="https://github.com/karthikmunna" target="_blank" class="btn-outline"><svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 016.02 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.82.58C20.56 21.8 24 17.3 24 12 24 5.37 18.63 0 12 0z"/></svg> GitHub</a>
+    </div>
+  </div>
+</div>
+
+</main>
+</div>
+
+<script src="js/main.js"></script>
+<script>lucide.createIcons();</script>
+</body>
+</html>
